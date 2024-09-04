@@ -1,10 +1,3 @@
-pub fn hello() -> String {
-  // let 😈😈😈😈😈😈😈😈 = 1
-  // let 中文 = 3
-  // @hhh.hello() |> ignore
-  "Hello, world!"
-}
-
 test "1" {
   inspect!("test 1", content="test 1")
   println("test 1")
@@ -63,7 +56,7 @@ test "5" {
   println("test 5")
 }
 
-// fn _recursive(n: Int) -> Int {
-//   let _a = 1;
-//   _recursive(n)
-// }
+fn _recursive(n : Int) -> Int {
+  let _a = 1
+  _recursive(n)
+}

@@ -1,1 +1,9 @@
-{}
+{
+    "import": [
+        // {
+        //     "path": "Young-Flash/test_publish/lib",
+        //     "alias": "hhh"
+        // }
+    ],
+    // "is-main": true
+}
