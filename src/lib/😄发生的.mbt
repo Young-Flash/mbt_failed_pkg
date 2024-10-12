@@ -24,15 +24,24 @@ test "2" {
 //   it.writeln("hello")
 //   it.writeln("snapshot")
 //   it.writeln("testing")
+//   let a = @deque.of([1, 2, 3])
 //   it.snapshot!(filename="001.txt")
 // }
 
+
+
 test "fail_test" {
-  // let a
-  fail!("test 3")
+  // let a = 1
+  // let a = [1, 2, 3]
+  // inspect!(a)
+
+  
+  // println(a)
+  // println(a)
+  // fail!("test 3")
 }
 
-test "fasdfasd" {
+test "fasdfasd中文😄" {
   // println(1 / 0)
   // println("test 3")
 
@@ -58,11 +67,38 @@ test "4" {
   println("test 4")
 }
 
-test "5" {
+test "fasdf" {
+  
   println("test 5")
 }
+
 
 // fn _recursive(n: Int) -> Int {
 //   let _a = 1;
 //   _recursive(n)
+// }
+
+
+// enum A {
+//   Hello
+// }
+
+// test {
+//   let a = Hello
+//   match a {
+    
+//   }
+// }
+
+fn min_jumps(steps : (Int, Int), d : Int) -> Double {
+  let ans = 0.0
+  ans
+}
+
+// test "example 1" {
+//   assert_eq!(min_jumps((3, 2), 10), 4.0)
+// }
+
+// test {
+//   @fs.read_file_to_string!(path="1.txt") |> println
 // }

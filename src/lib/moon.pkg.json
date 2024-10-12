@@ -1,5 +1,6 @@
 {
     "import": [
+        // "moonbitlang/x/fs",
         // {
         //     "path": "Young-Flash/test_publish/lib",
         //     "alias": "hhh"

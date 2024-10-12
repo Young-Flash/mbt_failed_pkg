@@ -1,27 +1,2 @@
-[1002] Warning: Warning: Unused variable 'a'
-   ╭─[/Users/flash/projects/failed_pkg/src/lib/hello_test.mbt:4:7]
-   │
- 4 │   let a = 1
-   │       ┬  
-   │       ╰── [93mWarning: Unused variable 'a'[0m
-───╯
-[1002] Warning: Warning: Unused variable 'b'
-   ╭─[/Users/flash/projects/failed_pkg/src/lib/hello_test.mbt:5:7]
-   │
- 5 │   let b = 2
-   │       ┬  
-   │       ╰── [93mWarning: Unused variable 'b'[0m
-───╯
-[1002] Warning: Warning: Unused variable 'b'
-   ╭─[/Users/flash/projects/failed_pkg/src/lib/hello_test.mbt:6:7]
-   │
- 6 │   let b = 2
-   │       ┬  
-   │       ╰── [93mWarning: Unused variable 'b'[0m
-───╯
-test username/hello/lib/hello_test.mbt::blackkbox failed: FAILED: /Users/flash/projects/failed_pkg/src/lib/hello_test.mbt:8:3-8:15 fff
-test 1
-test 2
-test 4
-test 5
-Total tests: 6, passed: 5, failed: 1.
+target/
+.mooncakes/
