@@ -3,12 +3,12 @@ test "1" {
   println("test 1")
 }
 
-// let 😈😈😈😈😈😈😈😈 = 1
-//   let 中文 = 3
+let 😈😈😈😈😈😈😈😈 = 1
+let 中文 = 3
 test "2" {
 
-  // let 😈😈😈😈😈😈😈😈 = 1
-  // let 中文 = 3
+  let 😈😈😈😈😈😈😈😈 = 1
+  let 中文 = 3
   // panic()
   println("test 2")
 }
@@ -25,9 +25,8 @@ test "fail_test" {
 }
 
 test "fasdfasd" {
-  println(1 / 0)
-  let a = 1
-  let b = 2
+  // let a = '\n'
+  // println(1 / 0)
   // println("test 3")
 
   // _recursive(10) |> ignore

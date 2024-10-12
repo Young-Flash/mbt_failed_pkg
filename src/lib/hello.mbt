@@ -28,13 +28,12 @@ test "2" {
 // }
 
 test "fail_test" {
+  // let a
   fail!("test 3")
 }
 
 test "fasdfasd" {
-  println(1 / 0)
-  let a = 1
-  let b = 2
+  // println(1 / 0)
   // println("test 3")
 
   // _recursive(10) |> ignore
