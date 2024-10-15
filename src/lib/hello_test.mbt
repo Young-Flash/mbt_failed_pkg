@@ -11,4 +11,5 @@ test {
   //     #|
   //   ,
   // )
+  println("hello")
 }

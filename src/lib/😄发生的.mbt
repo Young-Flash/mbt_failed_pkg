@@ -20,13 +20,13 @@ test "2" {
   println("test 2")
 }
 
-// test "d" (it : @test.T) {
-//   it.writeln("hello")
-//   it.writeln("snapshot")
-//   it.writeln("testing")
-//   let a = @deque.of([1, 2, 3])
-//   it.snapshot!(filename="001.txt")
-// }
+test "d" (it : @test.T) {
+  it.writeln("hello")
+  it.writeln("snapshot")
+  it.writeln("testing")
+  let a = @deque.of([1, 2, 3])
+  it.snapshot!(filename="001.txt")
+}
 
 
 

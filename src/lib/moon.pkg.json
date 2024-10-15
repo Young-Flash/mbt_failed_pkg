@@ -7,4 +7,10 @@
         // }
     ],
     // "is-main": true
+    // "link": {
+    //     "native": {
+    //         "flags": ["-cc", "clang"]
+    //     }
+    // }
+
 }
